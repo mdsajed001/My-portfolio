@@ -11,7 +11,7 @@ export function Banner() {
       "mailto:mdsajed001@gmail.com?subject=Trying to reach you about work&body=Please type your message";
   };
   return (
-    <section className="container mt-12 flex">
+    <section className="container mt-12 flex pb-8 md:pb-0">
       <div className="md:space-y-24 space-y-16">
         <div className="md:space-y-16 space-y-8">
           <h1 className="text-primary font-bold text-center md:text-start md:text-5xl text-3xl">

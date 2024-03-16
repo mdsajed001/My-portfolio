@@ -12,8 +12,8 @@ export function Banner() {
   };
   return (
     <section className="container mt-12 flex">
-      <div className="space-y-16">
-        <div className="space-y-8">
+      <div className="md:space-y-24 space-y-16">
+        <div className="md:space-y-16 space-y-8">
           <h1 className="text-primary font-bold md:text-5xl text-3xl">
             UI/UX Designer
           </h1>
@@ -28,7 +28,8 @@ export function Banner() {
           className="bg-primary flex items-center gap-2 rounded-2xl md:px-8 px-5 md:py-4 py-3 md:text-2xl text-lg font-semibold"
         >
           Contact me
-          <MdEmail size={24} />
+          <MdEmail className="md:hidden" size={24} />
+          <MdEmail className="hidden md:flex" size={32} />
         </button>
       </div>
       <div className="hidden md:block relative flex-1">

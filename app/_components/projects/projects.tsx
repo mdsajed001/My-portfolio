@@ -68,7 +68,7 @@ export function Projects() {
           </button>
         </div>
       </div>
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-16 mt-6">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:gap-16 gap-8 mt-6">
         {visibleProjects.map((project, index) => (
           <Project key={index} {...project} />
         ))}

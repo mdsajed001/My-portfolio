@@ -6,13 +6,13 @@ export function Footer() {
   return (
     <footer id="contact" className="bg-footerColor text-white py-10">
       <div className="container flex justify-between items-end">
-        <div className="flex flex-col gap-8">
-          <h3 className="text-4xl font-medium">Contacts</h3>
-          <div className="flex flex-col gap-4">
-            <Link href={`${contactInfo.email}`} className="text-xl">
+        <div className="flex flex-col md:gap-8 gap-4">
+          <h3 className="md:text-4xl text-2xl font-medium">Contacts</h3>
+          <div className="flex flex-col md:gap-4 gap-2">
+            <Link href={`${contactInfo.email}`} className="md:text-xl">
               Email : {contactInfo.email}
             </Link>
-            <Link href={`${contactInfo.phone}`} className="text-xl">
+            <Link href={`${contactInfo.phone}`} className="md:text-xl">
               Phone : {contactInfo.phone}
             </Link>
           </div>

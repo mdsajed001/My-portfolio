@@ -25,7 +25,7 @@ export function Banner() {
         </div>
         <button
           onClick={handleClick}
-          className="bg-primary rounded-2xl px-5 py-3 md:text-2xl text-lg font-semibold"
+          className="bg-primary rounded-2xl md:px-8 px-5 md:py-4 py-3 md:text-2xl text-lg font-semibold"
         >
           Contact me
         </button>

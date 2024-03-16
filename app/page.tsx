@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <header className="bg-headerBackgroundColor space-y-24 py-8">
+        <header className="bg-headerBackgroundColor md:space-y-24 space-y-16 py-8">
           <Navbar />
           <Banner />
         </header>

@@ -17,7 +17,7 @@ export function Footer() {
             </Link>
           </div>
         </div>
-        <div className="text-lg flex items-center gap-8">
+        <div className="text-lg flex items-center md:gap-8 gap-4">
           <Link href={socialLinks.linkedIn} target="_blank">
             <FaLinkedin size={32} />
           </Link>

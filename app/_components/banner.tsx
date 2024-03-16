@@ -14,10 +14,10 @@ export function Banner() {
     <section className="container mt-12 flex">
       <div className="md:space-y-24 space-y-16">
         <div className="md:space-y-16 space-y-8">
-          <h1 className="text-primary font-bold md:text-5xl text-3xl">
+          <h1 className="text-primary font-bold text-center md:text-start md:text-5xl text-3xl">
             UI/UX Designer
           </h1>
-          <p className="text-white font-light my-6 max-w-[700px] md:text-xl">
+          <p className="text-white font-light my-6 max-w-[700px] md:text-xl text-center md:text-start">
             Committed to enhancing user experiences, eager to contribute. I aim
             to work with a team to polish my skills and learn with them every
             day. Want to make an inspiring design to improve my career.

@@ -39,7 +39,7 @@ export function Projects() {
   return (
     <section className="container my-16 space-y-16">
       <div className="space-y-8">
-        <h1 className="text-primary font-bold md:text-5xl text-3xl">
+        <h1 className="text-primary text-center md:text-start font-bold md:text-5xl text-3xl">
           My Projects
         </h1>
         <div className="bg-headerBackgroundColor p-4 rounded-2xl flex items-center justify-center gap-16 text-white">

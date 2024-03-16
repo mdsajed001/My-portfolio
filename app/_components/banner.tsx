@@ -7,7 +7,7 @@ import { Rectangle } from "@/components/svg/rectangle";
 export function Banner() {
   const handleClick = () => {
     window.location.href =
-      "mailto:recipient@example.com?subject=Subject Text&body=Message Body";
+      "mailto:mdsajed001@gmail.com?subject=Trying to reach you about work&body=Please type your message";
   };
   return (
     <section className="container mt-12 flex">
@@ -16,8 +16,9 @@ export function Banner() {
           <h1 className="text-primary font-bold text-5xl">UI/UX Designer</h1>
           <p className="text-white font-light my-6 text-xl">
             Committed to enhancing user experiences, eager to contribute <br />{" "}
-            creativity, and driven to create compelling UI designs. I had the{" "}
-            <br /> opportunity to collaborate with frontend developers.
+            I aim to work with a team to polish my skills and learn with them{" "}
+            <br /> every day. Want to make an inspiring design to improve my
+            career.
           </p>
         </div>
         <button

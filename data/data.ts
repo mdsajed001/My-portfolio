@@ -30,7 +30,7 @@ export const projects: ProjectType[] = [
   {
     name: "Airbnb",
     description:
-      "Cash-io a simple expense tracker. with a clean ui i helps the user to track their money flow",
+      "A team clone project of Airbnb but also added some new functions that came up from user persona",
     type: "team",
     image: "/images/airbnb-Cover.png",
     link: "https://www.figma.com/file/M0vRKA7hfzSVuhDknVA0BS?type=design",

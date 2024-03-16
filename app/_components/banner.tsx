@@ -3,6 +3,7 @@ import { Circle } from "@/components/svg/circle";
 import { Pentagon } from "@/components/svg/pentagon";
 import { Poop } from "@/components/svg/poop";
 import { Rectangle } from "@/components/svg/rectangle";
+import { MdEmail } from "react-icons/md";
 
 export function Banner() {
   const handleClick = () => {
@@ -16,18 +17,18 @@ export function Banner() {
           <h1 className="text-primary font-bold md:text-5xl text-3xl">
             UI/UX Designer
           </h1>
-          <p className="text-white font-light my-6 md:text-xl">
-            Committed to enhancing user experiences, eager to contribute <br />{" "}
-            I aim to work with a team to polish my skills and learn with them{" "}
-            <br /> every day. Want to make an inspiring design to improve my
-            career.
+          <p className="text-white font-light my-6 max-w-[700px] md:text-xl">
+            Committed to enhancing user experiences, eager to contribute. I aim
+            to work with a team to polish my skills and learn with them every
+            day. Want to make an inspiring design to improve my career.
           </p>
         </div>
         <button
           onClick={handleClick}
-          className="bg-primary rounded-2xl md:px-8 px-5 md:py-4 py-3 md:text-2xl text-lg font-semibold"
+          className="bg-primary flex items-center gap-2 rounded-2xl md:px-8 px-5 md:py-4 py-3 md:text-2xl text-lg font-semibold"
         >
           Contact me
+          <MdEmail size={24} />
         </button>
       </div>
       <div className="hidden md:block relative flex-1">

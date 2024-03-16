@@ -11,10 +11,12 @@ export function Banner() {
   };
   return (
     <section className="container mt-12 flex">
-      <div className="space-y-24">
-        <div className="space-y-16">
-          <h1 className="text-primary font-bold text-5xl">UI/UX Designer</h1>
-          <p className="text-white font-light my-6 text-xl">
+      <div className="space-y-16">
+        <div className="space-y-8">
+          <h1 className="text-primary font-bold md:text-5xl text-3xl">
+            UI/UX Designer
+          </h1>
+          <p className="text-white font-light my-6 md:text-xl">
             Committed to enhancing user experiences, eager to contribute <br />{" "}
             I aim to work with a team to polish my skills and learn with them{" "}
             <br /> every day. Want to make an inspiring design to improve my
@@ -23,7 +25,7 @@ export function Banner() {
         </div>
         <button
           onClick={handleClick}
-          className="bg-primary rounded-2xl px-8 py-4 text-2xl font-semibold"
+          className="bg-primary rounded-2xl px-5 py-3 md:text-2xl text-lg font-semibold"
         >
           Contact me
         </button>

@@ -39,10 +39,12 @@ export function Projects() {
   return (
     <section className="container my-16 space-y-16">
       <div className="space-y-8">
-        <h1 className="text-primary font-bold text-5xl">My Projects</h1>
-        <div className="bg-footerColor p-4 rounded-2xl flex items-center justify-center gap-16 text-white">
+        <h1 className="text-primary font-bold md:text-5xl text-3xl">
+          My Projects
+        </h1>
+        <div className="bg-headerBackgroundColor p-4 rounded-2xl flex items-center justify-center gap-16 text-white">
           <button
-            className="flex items-center text-xl gap-2"
+            className="flex items-center md:text-xl gap-2"
             onClick={() => handleFilter("all")}
           >
             {selectedProjectType === "all" && <ActiveIndicator />}
@@ -50,7 +52,7 @@ export function Projects() {
           </button>
 
           <button
-            className="flex items-center text-xl gap-2"
+            className="flex items-center md:text-xl gap-2"
             onClick={() => handleFilter("solo")}
           >
             {selectedProjectType === "solo" && <ActiveIndicator />}
@@ -58,7 +60,7 @@ export function Projects() {
           </button>
 
           <button
-            className="flex items-center text-xl gap-2"
+            className="flex items-center md:text-xl gap-2"
             onClick={() => handleFilter("team")}
           >
             {selectedProjectType === "team" && <ActiveIndicator />}
